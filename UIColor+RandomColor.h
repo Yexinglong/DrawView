@@ -1,9 +1,9 @@
 //
 //  UIColor+RandomColor.h
-//  几何
+//  我滴小画板
 //
 //  Created by 叶星龙 on 15/11/28.
-//  Copyright © 2015年 北京声赞科技有限公司. All rights reserved.
+//  Copyright © 2015年 叶星龙. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
