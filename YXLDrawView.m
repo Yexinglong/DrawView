@@ -36,9 +36,9 @@ CGPoint midPoint(CGPoint p1, CGPoint p2)
     if (self) {
         
         self.undoManagerLine = [[NSUndoManager alloc] init];
-        [self.undoManagerLine setLevelsOfUndo:MAXFLOAT];
+        [self.undoManagerLine setLevelsOfUndo:50];
         self.undoManagerTpme= [[NSUndoManager alloc] init];
-        [self.undoManagerTpme setLevelsOfUndo:MAXFLOAT];
+        [self.undoManagerTpme setLevelsOfUndo:50];
 
         _lineWidth = 1;
         _lineAlpha = 0;
